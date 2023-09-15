@@ -24,8 +24,6 @@ You decide to start the preliminary data exploration and identify ways to improv
 
 Tips: Raw data fields may be transformed into other calculated fields for modelling purposes (i.e. converting D.O.B to age or age groups).  Tips: You may source external data from the ABS / Census to add additional variables that may help support your model. 
 
- 
-
 ## TASK
 1.  Assess the quality of their data.
 2.  Make recommendations on ways to clean the underlying data and mitigate these issues.
@@ -38,6 +36,9 @@ Tips: Raw data fields may be transformed into other calculated fields for modell
 4.  Data Exploration
 5.  Model Development (data transformations and modelling)
 6.  Interpretation (result interpretation and reporting)
+
+## TOOLS:
+1. Phyton (for cleaning datasets)
 
 ## ISSUES & RECOMMENDATIONS
 
@@ -57,7 +58,7 @@ Having different data types for a given field makes it difficult to interpret re
 
 5. More customer_ids in the ‘Customer Address table’ rather than in 'Customer Demographic’ and ‘Transactions table’ 
 *Mitigation*: Ensure all tables are from the same period. Only customers in the Customer Demographic dataset will be used as a dataset for our model. 
-*Action*: The data received may not be in sync with each other which may skew the analysis results if there are missing data records. List of outliers will be saved in the Excel file ‘data_outliers.xlsx’.
+*Action*: The data received may not be in sync with each other which may skew the analysis results if there are missing data records. 
 
 
  
